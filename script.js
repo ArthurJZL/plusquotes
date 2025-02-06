@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
     const targetUrl = 'http://zenquotes.io/api/quotes';
     try {
-      const response = await fetch(proxyUrl + targetUrl);
+      const response = await fetch(targetUrl);
       const quotes = await response.json();
 
       //randomly select a quoteObject inside the quotes

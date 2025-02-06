@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Random Quote Generator",
+  "name": "+ Quotes",
   "version": "1.0",
   "description": "Displays a random quote and author from the ZenQuotes API.",
   "action": {
